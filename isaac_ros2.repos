@@ -1,0 +1,21 @@
+repositories:
+  isaac_ros_visual_slam:
+    type:git
+    url: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam
+    version: release-ea3-hotfix1
+  diagnostics:
+    type:git
+    url: https://github.com/ros/diagnostics.git
+    version: galactic
+  vision_opencv:
+    type:git
+    url: https://github.com/ros-perception/vision_opencv.git
+    version: ros2
+  isaac_ros_common:
+    type:git
+    url: https://github.com/NVIDIA-ISAAC-ROS/saac_ros_common
+    version: release-ea3
+  isaac_ros_image_pipeline:
+    type:git
+    url: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_image_pipeline
+    version: release-ea3
