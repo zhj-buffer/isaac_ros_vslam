@@ -27,7 +27,8 @@ rosdep install -i --from-path src --rosdistro galactic --skip-keys=librealsense2
 colcon build
 ```
 
-# Run the test, more information pls refer to https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam
+# Run the test
+more information pls refer to https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam
 ```
 alan@nvdia-desktop:/home/sdcard/isaac_ros$ ros2 launch isaac_ros_visual_slam isaac_ros_visual_slam_realsense.launch.py
 [INFO] [launch]: All log files can be found below /home/alan/.ros/log/2022-04-25-14-17-12-479727-yongming-desktop-18776
