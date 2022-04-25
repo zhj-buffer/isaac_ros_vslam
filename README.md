@@ -1,6 +1,28 @@
 # isaac_ros_vslam
 forked from https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam
 
+
+# clone the code
+```
+git clone https://github.com/zhj-buffer/isaac_ros_vslam.git
+cd ~/isaac_ros_vslam
+vcs import src < isaac_ros2.repos
+```
+
+# install the dependences
+```
+sudo apt-get install python3-rosdep -y
+sudo rosdep init 
+rosdep update
+rosdep install -i --from-path src --rosdistro galactic --skip-keys=librealsense2 -y
+```
+
+# build the project (source the ros2 distro first)
+```
+colcon build
+```
+
+# Run the test, more information pls refer to https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam
 ```
 alan@nvdia-desktop:/home/sdcard/isaac_ros$ ros2 launch isaac_ros_visual_slam isaac_ros_visual_slam_realsense.launch.py
 [INFO] [launch]: All log files can be found below /home/alan/.ros/log/2022-04-25-14-17-12-479727-yongming-desktop-18776
