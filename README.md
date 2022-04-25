@@ -1,8 +1,8 @@
 # isaac_ros_vslam
 forked from https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam
 
-# Note: For best performance on Jetson, ensure that power settings are configured appropriately (Power Management for Jetson).
-# Run git lfs pull in each Isaac ROS repository you have checked out, especially isaac_ros_common, to ensure all of the large binary files have been downloaded.
+Note: For best performance on Jetson, ensure that power settings are configured appropriately (Power Management for Jetson).
+Run git lfs pull in each Isaac ROS repository you have checked out, especially isaac_ros_common, to ensure all of the large binary files have been downloaded.
 
 # clone the code
 ```
