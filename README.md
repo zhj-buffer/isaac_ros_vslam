@@ -5,7 +5,7 @@ forked from https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam
 # clone the code
 ```
 git clone https://github.com/zhj-buffer/isaac_ros_vslam.git
-cd ~/isaac_ros_vslam
+cd ./isaac_ros_vslam
 vcs import src < isaac_ros2.repos
 ```
 
